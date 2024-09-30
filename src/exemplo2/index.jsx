@@ -7,16 +7,16 @@ export default function App() {
   useEffect(() => { 
 
     const buscarUsuario  = async () => {
-                    = await fetch('');
+                    = await fetch('https://jsonplaceholder.typicode.com/photos');
         const dados =                ;
-        setUsuario(dados);
+        setFotos(dados);
     }
     buscarUsuario();
   }, //complete o código);
 
   return (
     <>
-      <h1>Usuário</h1>
+      <h1>Galeria de Fotos</h1>
       <ul>
         {}
       </ul>
